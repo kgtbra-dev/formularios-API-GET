@@ -49,8 +49,6 @@ form.addEventListener("submit", async function (event) {
                 "x-api-key": apiKey,
             },
 
-            //enviar os dados
-
             body: JSON.stringify(livro),
         });
 
